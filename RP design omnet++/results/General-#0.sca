@@ -1,0 +1,277 @@
+version 3
+run General-0-20260412-12:12:21-18552
+attr configname General
+attr datetime 20260412-12:12:21
+attr datetimef 20260412-121221
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AHRPNetwork
+attr processid 18552
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network AHRPNetwork
+config sim-time-limit 50s
+config **.R0.routerId "\"R0\""
+config **.R1.routerId "\"R1\""
+config **.R2.routerId "\"R2\""
+config **.R3.routerId "\"R3\""
+config **.R4.routerId "\"R4\""
+config **.R5.routerId "\"R5\""
+config **.scalar-recording true
+config **.vector-recording true
+
+par AHRPNetwork.R0.gate$o[0].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R0.gate$o[0].channel disabled false
+attr mutable ""
+par AHRPNetwork.R0.gate$o[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R0.gate$o[0].channel datarate 1e+08bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R0.gate$o[0].channel ber 0
+attr mutable ""
+par AHRPNetwork.R0.gate$o[0].channel per 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[0].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R1.gate$o[0].channel disabled false
+attr mutable ""
+par AHRPNetwork.R1.gate$o[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R1.gate$o[0].channel datarate 1e+08bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R1.gate$o[0].channel ber 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[0].channel per 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[1].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R1.gate$o[1].channel disabled false
+attr mutable ""
+par AHRPNetwork.R1.gate$o[1].channel delay 0.015s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R1.gate$o[1].channel datarate 8e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R1.gate$o[1].channel ber 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[1].channel per 0
+attr mutable ""
+par AHRPNetwork.R2.gate$o[0].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R2.gate$o[0].channel disabled false
+attr mutable ""
+par AHRPNetwork.R2.gate$o[0].channel delay 0.015s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R2.gate$o[0].channel datarate 8e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R2.gate$o[0].channel ber 0
+attr mutable ""
+par AHRPNetwork.R2.gate$o[0].channel per 0
+attr mutable ""
+par AHRPNetwork.R2.gate$o[1].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R2.gate$o[1].channel disabled false
+attr mutable ""
+par AHRPNetwork.R2.gate$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R2.gate$o[1].channel datarate 7e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R2.gate$o[1].channel ber 0
+attr mutable ""
+par AHRPNetwork.R2.gate$o[1].channel per 0
+attr mutable ""
+par AHRPNetwork.R3.gate$o[0].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R3.gate$o[0].channel disabled false
+attr mutable ""
+par AHRPNetwork.R3.gate$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R3.gate$o[0].channel datarate 7e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R3.gate$o[0].channel ber 0
+attr mutable ""
+par AHRPNetwork.R3.gate$o[0].channel per 0
+attr mutable ""
+par AHRPNetwork.R3.gate$o[1].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R3.gate$o[1].channel disabled false
+attr mutable ""
+par AHRPNetwork.R3.gate$o[1].channel delay 0.01s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R3.gate$o[1].channel datarate 9e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R3.gate$o[1].channel ber 0
+attr mutable ""
+par AHRPNetwork.R3.gate$o[1].channel per 0
+attr mutable ""
+par AHRPNetwork.R4.gate$o[0].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R4.gate$o[0].channel disabled false
+attr mutable ""
+par AHRPNetwork.R4.gate$o[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R4.gate$o[0].channel datarate 9e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R4.gate$o[0].channel ber 0
+attr mutable ""
+par AHRPNetwork.R4.gate$o[0].channel per 0
+attr mutable ""
+par AHRPNetwork.R4.gate$o[1].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R4.gate$o[1].channel disabled false
+attr mutable ""
+par AHRPNetwork.R4.gate$o[1].channel delay 0.015s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R4.gate$o[1].channel datarate 6e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R4.gate$o[1].channel ber 0
+attr mutable ""
+par AHRPNetwork.R4.gate$o[1].channel per 0
+attr mutable ""
+par AHRPNetwork.R5.gate$o[0].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R5.gate$o[0].channel disabled false
+attr mutable ""
+par AHRPNetwork.R5.gate$o[0].channel delay 0.015s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R5.gate$o[0].channel datarate 6e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R5.gate$o[0].channel ber 0
+attr mutable ""
+par AHRPNetwork.R5.gate$o[0].channel per 0
+attr mutable ""
+par AHRPNetwork.R0.gate$o[1].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R0.gate$o[1].channel disabled false
+attr mutable ""
+par AHRPNetwork.R0.gate$o[1].channel delay 0.05s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R0.gate$o[1].channel datarate 5e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R0.gate$o[1].channel ber 0
+attr mutable ""
+par AHRPNetwork.R0.gate$o[1].channel per 0
+attr mutable ""
+par AHRPNetwork.R5.gate$o[1].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R5.gate$o[1].channel disabled false
+attr mutable ""
+par AHRPNetwork.R5.gate$o[1].channel delay 0.05s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R5.gate$o[1].channel datarate 5e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R5.gate$o[1].channel ber 0
+attr mutable ""
+par AHRPNetwork.R5.gate$o[1].channel per 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[2].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R1.gate$o[2].channel disabled false
+attr mutable ""
+par AHRPNetwork.R1.gate$o[2].channel delay 0.025s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R1.gate$o[2].channel datarate 7.5e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R1.gate$o[2].channel ber 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[2].channel per 0
+attr mutable ""
+par AHRPNetwork.R4.gate$o[2].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R4.gate$o[2].channel disabled false
+attr mutable ""
+par AHRPNetwork.R4.gate$o[2].channel delay 0.025s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R4.gate$o[2].channel datarate 7.5e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R4.gate$o[2].channel ber 0
+attr mutable ""
+par AHRPNetwork.R4.gate$o[2].channel per 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[3].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R1.gate$o[3].channel disabled false
+attr mutable ""
+par AHRPNetwork.R1.gate$o[3].channel delay 0.04s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R1.gate$o[3].channel datarate 5e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R1.gate$o[3].channel ber 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[3].channel per 0
+attr mutable ""
+par AHRPNetwork.R5.gate$o[2].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R5.gate$o[2].channel disabled false
+attr mutable ""
+par AHRPNetwork.R5.gate$o[2].channel delay 0.04s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R5.gate$o[2].channel datarate 5e+07bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R5.gate$o[2].channel ber 0
+attr mutable ""
+par AHRPNetwork.R5.gate$o[2].channel per 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[4].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R1.gate$o[4].channel disabled false
+attr mutable ""
+par AHRPNetwork.R1.gate$o[4].channel delay 0.025s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R1.gate$o[4].channel datarate 1e+08bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R1.gate$o[4].channel ber 0
+attr mutable ""
+par AHRPNetwork.R1.gate$o[4].channel per 0
+attr mutable ""
+par AHRPNetwork.R3.gate$o[2].channel typename "\"ned.DatarateChannel\""
+par AHRPNetwork.R3.gate$o[2].channel disabled false
+attr mutable ""
+par AHRPNetwork.R3.gate$o[2].channel delay 0.025s
+attr mutable ""
+attr unit s
+par AHRPNetwork.R3.gate$o[2].channel datarate 1e+08bps
+attr mutable ""
+attr unit bps
+par AHRPNetwork.R3.gate$o[2].channel ber 0
+attr mutable ""
+par AHRPNetwork.R3.gate$o[2].channel per 0
+attr mutable ""
+par AHRPNetwork.R0 typename "\"Router\""
+par AHRPNetwork.R0 routerId "\"R0\""
+par AHRPNetwork.R1 typename "\"Router\""
+par AHRPNetwork.R1 routerId "\"R1\""
+par AHRPNetwork.R2 typename "\"Router\""
+par AHRPNetwork.R2 routerId "\"R2\""
+par AHRPNetwork.R3 typename "\"Router\""
+par AHRPNetwork.R3 routerId "\"R3\""
+par AHRPNetwork.R4 typename "\"Router\""
+par AHRPNetwork.R4 routerId "\"R4\""
+par AHRPNetwork.R5 typename "\"Router\""
+par AHRPNetwork.R5 routerId "\"R5\""
+par AHRPNetwork typename "\"AHRPNetwork\""
+
